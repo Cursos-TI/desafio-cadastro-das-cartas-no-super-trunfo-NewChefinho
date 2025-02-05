@@ -2,7 +2,9 @@
 
 int main() {
 
-    printf("Desafio Super Trunfo Países! \n");
+
+// Aqui estao as variaveis das cartas.
+
 
    char estado;
    char cidade[50]; // nome da cidade
@@ -13,13 +15,15 @@ int main() {
    int codigo; // ex... A01,A02...
    char nome[50];
 
-// Aqui estao as variaveis das cartas.
 
+//Texto informativo.
 
-    printf("Cadastro das Cartas: \n");
+    printf("Desafio Super Trunfo Países! \n");
+
+    printf("Cadastro das Cartas! \n");
+
 
 // Nesta parte e onde o usuario cadastra as informacoes das cartas.
-
 
 
        printf("Digite um Estado: \n");
@@ -44,8 +48,8 @@ int main() {
        scanf("%d", &pontos_turisticos);
 
 
+// Nessa parte onde mostra as informacoes pro usuario
 
-// Nessa parte onde mostra as informacoes pro usuario.
 
        printf("Estado: %s \n", estado);
        printf("Codico da Carta: %s \n", codigo);
