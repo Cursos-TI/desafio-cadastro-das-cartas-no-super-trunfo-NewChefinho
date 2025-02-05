@@ -6,7 +6,7 @@ int main() {
 // Aqui estao as variaveis das cartas.
 
 
-   char estado;
+   char estado[50];
    char cidade[50]; // nome da cidade
    int populacao;
    float area;
