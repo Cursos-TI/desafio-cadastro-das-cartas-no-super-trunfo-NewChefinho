@@ -1,37 +1,66 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
-
 int main() {
 
+    printf("Desafio Super Trunfo Países! \n");
 
-/* População
-Área
-PIB
-Número de pontos turísticos */
-
-
-    printf("Desafio Super Trunfo!\n");
-
+   char estado;
+   char cidade[50]; // nome da cidade
    int populacao;
    float area;
    float pib;
-   int numeros de pontos turisticos 
-   
+   int pontos_turisticos;
+   int codigo; // ex... A01,A02...
+   char nome[50];
+
+// Aqui estao as variaveis das cartas.
 
 
-    printf("Brasil:\n");
-    scanf
+    printf("Cadastro das Cartas: \n");
 
-}
-
-    
+// Nesta parte e onde o usuario cadastra as informacoes das cartas.
 
 
+
+       printf("Digite um Estado: \n");
+       scanf("%s", &estado);
+
+       printf("Digite o Codico da Carta: \n");
+       scanf("%s", &codigo);
+
+       printf("Digite o nome da Cidade: \n");
+       scanf("%s", &cidade);
+
+       printf("Digite o numero da População: \n");
+       scanf("%d", &populacao);
+
+       printf("Digite a Area: \n");
+       scanf("%f", &area);
+
+       printf("Digite o PIB: \n");
+       scanf("%f", &pib);
+       
+       printf("Digite o numero de pontos Turisticos: \n");
+       scanf("%d", &pontos_turisticos);
+
+
+
+// Nessa parte onde mostra as informacoes pro usuario.
+
+       printf("Estado: %s \n", estado);
+       printf("Codico da Carta: %s \n", codigo);
+       printf("Nome da Cidade: %s \n", cidade);
+       printf("População: %d \n", populacao);
+       printf("Área: %f \n", area);
+       printf("PIB: %f \n", pib);
+       printf("Número de Pontos Turísticos: %d \n", pontos_turisticos);
+
+
+    // Desafio Super Trunfo - Países
+    // Tema 1 - Cadastro das Cartas
+    // Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
+    // Siga os comentários para implementar cada parte do desafio.
+    //Teste larissa
 
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
