@@ -8,17 +8,26 @@
 
 int main() {
 
+
+/* População
+Área
+PIB
+Número de pontos turísticos */
+
+
     printf("Desafio Super Trunfo!\n");
 
-    char estado[50], codigo da carta[50], nome da cidade[50];
-    int populacao, numero de pontos turisticos;
-    float area em km², pib;
+   int populacao;
+   float area;
+   float pib;
+   int numeros de pontos turisticos 
+   
 
 
     printf("Brasil:\n");
     scanf
 
-
+}
 
     
 
