@@ -9,7 +9,19 @@
 int main() {
 
     printf("Desafio Super Trunfo!\n");
+
+    char estado[50], codigo da carta[50], nome da cidade[50];
+    int populacao, numero de pontos turisticos;
+    float area em km², pib;
+
+
+    printf("Brasil:\n");
+    scanf
+
+
+
     
+
 
 
 
