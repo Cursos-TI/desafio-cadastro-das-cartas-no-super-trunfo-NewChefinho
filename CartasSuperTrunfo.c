@@ -14,7 +14,8 @@ int main() {
    int pontos_turisticos;
    int codigo; // ex... A01,A02...
    char nome[50];
-
+   float pib_per_capita;
+   float densidade_populacional;
 
 //Texto informativo.
 
@@ -48,6 +49,11 @@ int main() {
        scanf("%d", &pontos_turisticos);
 
 
+// aqui sao os conceitos aritimeticos 
+
+      pib_per_capita = (float) pib / populacao;
+      densidade_populacional = (float) populacao / area;
+
 // Nessa parte onde mostra as informacoes pro usuario
 
 
@@ -59,6 +65,8 @@ int main() {
        printf("PIB: %f \n", pib);
        printf("Número de Pontos Turísticos: %d \n", pontos_turisticos);
 
+       printf("Densidade Populacional: %f \n", densidade_populacional);
+       printf("PIB per Capita: %f \n", pib_per_capita);
 
     // Desafio Super Trunfo - Países
     // Tema 1 - Cadastro das Cartas
