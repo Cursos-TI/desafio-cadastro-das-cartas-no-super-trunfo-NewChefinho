@@ -12,8 +12,7 @@ int main() {
    float area;
    float pib;
    int pontos_turisticos;
-   int codigo; // ex... A01,A02...
-   char nome[50];
+   char codigo[3]; // ex... A01,A02...
    float pib_per_capita;
    float densidade_populacional;
 
